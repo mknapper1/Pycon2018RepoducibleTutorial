@@ -50,7 +50,7 @@ def plot_distribution(wine):
     ax.set_ylabel('Probability density')
     ax.set_xlabel('Points');
 
-    fname = f'figures/fig01_distribution-wine-scores.png'
+    fname = f'reports/figures/fig01_distribution-wine-scores.png'
 
     fig.savefig(fname, bbox_inches = 'tight')
     return (fname)
